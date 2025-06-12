@@ -106,11 +106,14 @@
                 android:clickable="true"
                 android:focusable="true"/>
             <TextView
+                android:id="@+id/github_link"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="github.com/zuhairahzaidi/utilitybudget"
+                android:text="https://github.com/shinzq2/ICT602-INDIVIDUAL-ASSIGNMENT"
                 android:textColor="@color/deepRed"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:autoLink="web"
+                android:linksClickable="true"/>
         </LinearLayout>
 
     </LinearLayout>
