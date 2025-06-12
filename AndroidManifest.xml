@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.labia_zuhairah">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Utility Budget"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+
+        <!-- Only one HomeActivity, with launcher intent -->
+        <activity android:name=".HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ResultListActivity" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".AboutActivity" />
+    </application>
+</manifest>
